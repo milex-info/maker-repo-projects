@@ -94,6 +94,6 @@ tags_no_nans = [x for x in list(df['unique_tags']) if type(x) != float] #list(df
 with col4:
     st.write("Project Count: " + str(len(df)))
 
-with col6:
-    st.write(str(tags_no_nans))
+#with col6:
+    #st.write(str(tags_no_nans))
 
